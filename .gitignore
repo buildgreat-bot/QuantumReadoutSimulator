@@ -1,0 +1,16 @@
+# Compiled output
+build/
+*.exe
+*.o
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db

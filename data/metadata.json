@@ -1,0 +1,19 @@
+{
+  "qubit_state": 0,
+  "phi_qubit_rad": 1.40564765,
+  "phi_0_rad": 1.40564765,
+  "phi_1_rad": -1.40564765,
+  "delta_phi_rad": 2.81129530,
+  "omega_probe_GHz": 6.000000,
+  "omega_r_GHz": 6.000000,
+  "omega_q_GHz": 5.000000,
+  "kappa_MHz": 1.000000,
+  "chi_MHz": 3.000000,
+  "g_MHz": 100.000000,
+  "tau_ns": 318.3099,
+  "V0": 1.0000,
+  "dt_ns": 0.1000,
+  "n_samples": 10240,
+  "template_csv": "data/stage1_template.csv",
+  "signal_csv": "data/stage1_resonator.csv"
+}

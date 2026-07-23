@@ -105,7 +105,7 @@ python plot_stages.py
 
 ---
 
-## File Structure
+
 ## File Structure
 
 QuantumReadoutSimulator/

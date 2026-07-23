@@ -95,7 +95,7 @@ void resonator_compute_derived(ResonatorConfig *rc) {
 
 // ================================================================
 // resonator_print_full_physics()
-// Textbook-quality physics explanation for Stage 1.
+// Prints a detailed summary of the resonator physics, including Hamiltonian, dispersive regime, effective frequencies, phase imprinting, cavity dynamics, and final signal equation.
 // ================================================================
 void resonator_print_full_physics(const ResonatorConfig *rc) {
     printf("\n");

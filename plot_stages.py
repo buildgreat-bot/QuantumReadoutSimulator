@@ -24,8 +24,8 @@ t6, s6 = load_stage('data/stage6_adc.csv')
 # PLOT SETTINGS
 # ================================================================
 
-plt.style.use('dark_background')  # looks great for presentations
-# plt.style.use('seaborn-v0_8-paper')  # use this for publications
+plt.style.use('seaborn-v0_8-paper') 
+# plt.style.use('seaborn-v0_8-paper') 
 
 fig = plt.figure(figsize=(18, 10))
 fig.suptitle('Quantum Readout Signal Chain — All 6 Stages',
@@ -143,6 +143,6 @@ ax6.tick_params(labelsize=7)
 # ===================================python plot_stages.pypython plot_stages.py=============================
 plt.savefig('data/signal_chain_plot.png',
             dpi=150, bbox_inches='tight',
-            facecolor=fig.get_facecolor())
+            facecolor='white')
 print("Plot saved to data/signal_chain_plot.png")
 plt.show()
